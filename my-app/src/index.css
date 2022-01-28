@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+.navbar {
+  background-color: rgb(219, 226, 222) ! important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:rgb(156, 148, 137) !important;
+}
+.navbar a {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: rgb(58, 60, 61);
+}
+
+.nabar a:hover {
+
+  color:rgb(205, 165, 224) !important;
+}
+
+@media (max-width:990px) {
+  .navbar-brand{
+    font-size: 1.3rem;
+  }
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: none;
+}
+/* main landing section */
+
+#header {
+   width:80;
+   height:100vh;
+   margin-top:70px;
+}
+#header h1{
+  margin:0 0 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color:black;
+}
+#header .brand-name {
+  color:rgb(84, 84, 87);
+}
+
+h2{
+  font-size: 30px;
+  color:cornflowerblue;
+}
+#header .btn-get-started{
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding:10px 30px;
+  border-radius: 15px;
+  transition: 0.5s;
+  color:darkblue;
+  border: 2px solid black;
+  text-decoration: none;
+}
+#header .btn-get-started:hover{
+  background: blue;
+  color:#fff;
+}
+
+
+
+
+
+
